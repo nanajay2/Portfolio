@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Qeens';
+  src: url('assets/fonts/queensides/Queensides-3z7Ey.ttf') format('woff2'),
+       url('assets/fonts/queensides/QueensidesLight-ZVj3l.ttf') format('woff2'),
+       url('assets/fonts/queensides/QueensidesMedium-x30zV.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn-primary {
+  background-color: #B1B2FF;
+  border-color: #B1B2FF;
+}
+
+.btn-primary:hover {
+  background-color: #9b9ce6;
+  border-color: #9b9ce6;
+}
+
+.btn-secondary {
+  background-color: #D2DAFF;
+  border-color: #D2DAFF;
+}
+
+.btn-secondary:hover {
+  background-color: #bac5f1;
+  border-color: #bac5f1;
+}
+
+body{
+  background-color: #EEF1FF;
+}
+

@@ -1,0 +1,36 @@
+  .footerName {
+    font-family: 'Qeens', sans-serif;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .footer-text {
+    display: block;
+    font-size: larger;
+    margin: 0;
+  }
+
+  .image-container {
+    display: inline-block;
+    width: 100%;
+    height: 33vh;
+  }
+
+  .clean-purple {
+    width: 100%;
+    height: 33vh;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  #knowMeButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+  }

@@ -1,3 +1,7 @@
+body{
+  background-color: #EEF1FF;
+}
+
 @font-face {
   font-family: 'Qeens';
   src: url('assets/fonts/queensides/Queensides-3z7Ey.ttf') format('woff2'),
@@ -26,8 +30,3 @@
   background-color: #bac5f1;
   border-color: #bac5f1;
 }
-
-body{
-  background-color: #EEF1FF;
-}
-

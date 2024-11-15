@@ -1,27 +1,96 @@
-<main class="main">
+<!-- <main class="main">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">GDT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-center gap-4" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-itemp">
+            <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ms-5">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item ms-5">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</main> -->
+
+<main>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top ms-3">
+    <a class="navbar-brand" href="#">GDT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ms-5 me-5">
+          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-itemms-5 me-5">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-itemms-5 me-5">
+          <a class="nav-link disabled" href="#">Contact</a>
+        </li>
+      </ul>
+      <!-- <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav>
+</main>
+
+<body class="body">
   <div class="col-12">
     <div class="image-container">
       <img src="assets/images/clean-purple.jpg" alt="clean-purple" class="clean-purple">
-      <div class="button-container">
+    </div>
+  </div>
+  <div class="col-6">
+      <div id='presentation-text' class='presentation-text'>
+        <p>
+          Hi, I'm Giada <br>
+          I'm a full stack developer
+        </p>
+      </div>
+    </div>
+
+    <div class="col-6">
+        <a class="btn btn-primary " href="" type="button">
+          Tell me more <i class="bi bi-arrow-right fs-4 text-white"></i>
+        </a>
+    </div>
+  <!-- <div class="col-3 " id="button-container">
         <button id="knowMeButton" class="btn btn-primary btn-lg">
           Know about Me
         </button>
-      </div>
-    </div>
-  </div>
-</main>
-
-<body>
+      </div> -->
 </body>
-
-<footer id="footer-text">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <p class="footerName">Giada Del Testa</p>
+<!-- <body>
+  <div id='home' class='home'>
+    <div id='clean-purple-img' class='clean-purple-img'>
+      <img src="assets/images/clean-purple.jpg" alt="clean-purple" class="clean-purple">
+      <div id='frame2' class='frame2'>
+        <div id='presentation-text' class='bg-primary text-white p-3'>
+          Hi, I'm Giada <br>
+          I'm a full stack developer
+        </div>
+        <div id='frame3' class='frame3'>
+        </div>
       </div>
     </div>
   </div>
-</footer>
-
+</body> -->
 <router-outlet />

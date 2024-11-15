@@ -30,3 +30,8 @@ body{
   background-color: #bac5f1;
   border-color: #bac5f1;
 }
+
+.presentation-text{
+  font-size: large;
+  margin-top: 0%;
+}
